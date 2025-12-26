@@ -1,8 +1,3 @@
-dataset - https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset
-
-- Updated a month ago
-- 20,000 records
-
 get dataset
 ```sh
 curl -Lo dataset.zip \
@@ -10,3 +5,11 @@ curl -Lo dataset.zip \
   && unzip dataset.zip \
   && rm dataset.zip
 ```
+
+install kernel for notebook
+```sh
+. .venv/bin/activate
+python -m ipykernel install --user --name l1 --display-name "Python (.venv l1)"
+```
+
+export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
