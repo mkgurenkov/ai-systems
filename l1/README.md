@@ -12,4 +12,6 @@ install kernel for notebook
 python -m ipykernel install --user --name l1 --display-name "Python (.venv l1)"
 ```
 
+Actually i dont remember if i need this thing below. Perhaps no
+
 export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
