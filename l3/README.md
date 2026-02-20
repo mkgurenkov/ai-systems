@@ -9,5 +9,5 @@ curl -Lo dataset.zip \
 install kernel for notebook
 ```sh
 . .venv/bin/activate
-python -m ipykernel install --user --name l2 --display-name "Python (.venv l2)"
+python -m ipykernel install --user --name l3 --display-name "Python (.venv l3)"
 ```
